@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.MainActivity">
+
+    <EditText
+        android:id="@+id/UsernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:hint="@string/please_enter_your_username"
+        android:textColorHint="@color/colorAccent"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/PasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:hint="@string/please_enter_your_password"
+        android:textColorHint="@color/colorAccent"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/EmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:hint="@string/please_enter_your_email_address"
+        android:textColorHint="@color/colorAccent"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/PhoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:hint="@string/please_enter_your_phone_number"
+        android:textColorHint="@color/colorAccent"
+        android:inputType="phone" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:background="@color/colorAccent"
+        android:onClick="onButtonClick"
+        />
+
+    <TextView
+        android:id="@+id/UsernameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/displayedusernametext"
+        />
+    <TextView
+        android:id="@+id/PasswordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/displayedpasswordtext"
+        />
+    <TextView
+        android:id="@+id/EmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/displayedemailtext"
+        />
+    <TextView
+        android:id="@+id/PhoneNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/displayedphonenumbertext"
+        />
+
+</LinearLayout>
